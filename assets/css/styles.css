@@ -1,0 +1,43 @@
+/*단일 요소 변경은 태그안에 스타일 attribute를 넣는게 편함
+ 페이지 하나를 바꿀땐 html 자체에 스타일을 넣으면 좋음
+ 다중 페이지를 관리할땐 .css 파일로 분리하여 태그들에 넣을 스타일을 따로
+ 정의하는 것이 좋음
+*/
+
+h1 {
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+h2
+{
+    text-align: center;
+    color: #000000;
+}
+
+h3
+{
+    text-align: center;
+    color: #000000;
+}
+
+@font-face {
+    font-family: "MotionPicture";
+    src: url(../fonts/MotionPicture.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "JerseyRegular";
+    src: url(../fonts/JerseyRegular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html
+{
+    background-color: rgb(167, 219, 160);
+    font-family: "sans-serif"
+}
