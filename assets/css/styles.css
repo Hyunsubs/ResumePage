@@ -24,20 +24,35 @@ h3
 
 @font-face {
     font-family: "MotionPicture";
-    src: url(../fonts/MotionPicture.ttf) format("truetype");
-    font-weight: normal;
+    src: url(../fonts/MotionPicture.ttf);
+    font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: "JerseyRegular";
-    src: url(../fonts/JerseyRegular.ttf) format("truetype");
-    font-weight: normal;
+    src: url(../fonts/JerseyRegular.ttf);
+    font-weight: bold;
     font-style: normal;
 }
 
 html
 {
     background-color: rgb(167, 219, 160);
-    font-family: "sans-serif"
+    font-family: "JerseyRegular"
 }
+
+ol
+{
+    margin-left: -40px;
+    margin-top: -20px;
+    list-style-position: inside;
+}
+
+ul
+{
+    margin-left: -40px;
+    margin-top: -20px;
+    list-style-position: inside;
+}
+
